@@ -1,1 +1,1 @@
-web: gunicorn proxy_server:app
+worker: gunicorn proxy_server:app
